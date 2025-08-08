@@ -22,7 +22,7 @@ const Navbar = () => {
 
 
 
-                    <NavLink onClick={() => setActiveNaw(item.path)} to={item.path} className={"flex items-center gap-[20px] font-semibold text-[18px]   text-[#000000]"}>
+                    <NavLink onClick={() => setActiveNaw(item.path)} to={item.path} className={"flex items-center gap-[20px] font-semibold text-[18px] text-[#000000]"}>
 
                         {activeNav == item.path ? item.activeIcon : item.icon}
                         <span>{item.title}</span>
